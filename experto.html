@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section id="section-experto">
+      <div id="notify-added" class="hide">
+        Caracteristica agregado correctemente
+      </div>
+
+      <div id="modal-malware-created">
+        <p>Se ha creado el malware</p>
+      </div>
+
+      <h1 id="title-section-experto">
+        Modulo de adquisicion de conocimiento (base de hechos y reglas)
+      </h1>
+
+      <a href="index.html" id="menu-main">Menu principal</a>
+
+      <fieldset id="sectionNameMalware" class="style-fielset">
+        <input type="text" placeholder="Nombre del malware" id="nameMalware" />
+        <button id="createMalware" class="hide">Crear tipo malware</button>
+      </fieldset>
+
+      <fieldset id="sectionCaracteristica" class="style-fielset hide">
+        <input
+          type="text"
+          placeholder="Ingresa una caracteristica"
+          id="caracteristicaMalware"
+        />
+        <button id="addCaracteristica" class="hide">Agregar</button>
+      </fieldset>
+
+      <fieldset id="sectionMedidas" class="style-fielset hide">
+        <input
+          type="text"
+          placeholder="Ingresa una medida preventiva"
+          id="medidaMalware"
+        />
+        <button id="addMedida" class="hide">Agregar</button>
+      </fieldset>
+
+      <fieldset id="sectionCrearBtn" class="hide">
+        <button id="crearBtnMalware">Crear</button>
+      </fieldset>
+    </section>
+    <script src="experto.js"></script>
+  </body>
+</html>

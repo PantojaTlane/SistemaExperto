@@ -1,0 +1,352 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+/*Estilos para el index. Inicio*/
+#title-index{
+    text-align: center;
+    color: #444444;
+    letter-spacing: 0.3rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+#container-inicio{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient( 45deg,#b3ebff,#fbc2eb );
+    padding: 3rem;
+}
+.usuarios-btns{
+    padding: 2rem;
+    border: 2px solid white;
+    border-radius: 0.4rem;
+    background-color: white;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+    transition: all ease-in-out 0.2s;
+}
+.usuarios-btns:hover{
+    transform: scale(1.03);
+}
+#users-options{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#users-options a{
+    border-radius: 0.2rem;
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 2rem;
+    transition: all ease-in 0.3s;
+}
+#users-options a:first-child{
+    background-color: #4f97b1;
+}
+#users-options a:last-child{
+    background-color: #fa6bd1;
+}
+#users-options a:hover{
+    opacity: 0.8;
+}
+#caracteristica{
+    resize: none;
+}
+#notify-added{
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    background-color: #4f97b1;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.4rem;
+}
+/*Estilos para el index. Fin*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Estilos experto.html. Inicio*/
+#section-experto{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding-top: 3rem;
+    background: linear-gradient( 45deg,#b3ebff,#fbc2eb );
+}
+#title-section-experto{
+    text-align: center;
+    font-weight: 500;
+    color: white;
+    letter-spacing: 0.3rem;
+}
+.style-fielset{
+    margin: auto;
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: white;
+    border: none;
+    border-radius: 0.3rem;
+}
+.hide{
+    display: none !important;
+}
+
+
+
+#sectionNameMalware{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+#nameMalware{
+    padding: 0.4rem;
+    color: #a5a5a5;
+    outline: none;
+    border: none;
+}
+#createMalware{
+    padding: 0.4rem;
+    background-color: #67c9ec;
+    border: none;
+    color: white;
+    border-radius: 0.3rem;
+    transition: all ease-in-out 0.3s;
+}
+#createMalware:hover{
+    background-color: #8ed4ee;
+    cursor: pointer;
+}
+
+
+#sectionCaracteristica{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+#caracteristicaMalware{
+    width: 80%;
+    padding: 0.4rem;
+    color: #a5a5a5;
+    outline: none;
+    border: none;
+}
+#addCaracteristica{
+    padding: 0.4rem;
+    background-color: #67c9ec;
+    border: none;
+    color: white;
+    border-radius: 0.3rem;
+    transition: all ease-in-out 0.3s;
+}
+#addCaracteristica:hover{
+    background-color: #8ed4ee;
+    cursor: pointer;
+}
+
+
+#sectionMedidas{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+#medidaMalware{
+    width: 80%;
+    padding: 0.4rem;
+    color: #a5a5a5;
+    outline: none;
+    border: none;
+}
+#addMedida{
+    padding: 0.4rem;
+    background-color: #67c9ec;
+    border: none;
+    color: white;
+    border-radius: 0.3rem;
+    transition: all ease-in-out 0.3s;
+}
+#addMedida:hover{
+    background-color: #8ed4ee;
+    cursor: pointer;
+}
+
+#sectionCrearBtn{
+    width: 30%;
+    margin: auto;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    padding: 0.4rem;
+    color: #a5a5a5;
+    outline: none;
+    border: none;
+}
+#crearBtnMalware{
+    padding: 0.5rem 2rem;
+    border: none;
+    color: white;
+    background-color: #fa6bd1;
+    border-radius: 0.4rem;
+    transition: all ease-in-out 0.3s;
+}
+#crearBtnMalware:hover{
+    cursor: pointer;
+    background-color: #df6bbe;
+}
+#modal-malware-created{
+    position: absolute;
+    bottom: 1rem;
+    margin: 1rem;
+    transform: translateX(-110%);
+    background-color: rgb(127, 89, 216);
+    padding: 2rem;
+    color: #ffffff;
+    border-radius: 0.4rem;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+    transition: all ease-in 0.3s;
+}
+.show-modal{
+    transform: translateX(0%) !important;
+}
+#menu-main{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background-color: #e70c8c;
+    color: white;
+    text-decoration: none;
+    border-radius: 0.3rem;
+    padding: 0.5rem 1rem;
+    transition: all ease-in-out 0.2s;
+}
+#menu-main:hover{
+    background-color: #e951aa;
+}
+/*Estilos experto.html. Fin*/
+
+
+
+
+
+
+
+
+
+/*Estilos usuario.html. Inicio*/
+#section-user{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding-top: 3rem;
+    background: linear-gradient( 45deg,#b3ebff,#fbc2eb );
+}
+#title-user{
+    text-align: center;
+    font-weight: 500;
+    color: white;
+    letter-spacing: 0.3rem;
+}
+#select-carac{
+    width: 30%;
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+#select{
+    border: none;
+    padding: 1rem;
+    background-color: white;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    font-size: 0.8rem;
+    color: #797979;
+    border-radius: 0.4rem;
+}
+#select > option{
+    border: none;
+    font-size: 0.8rem;
+}
+#restart{
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    background-color: #840ce7;
+    color: white;
+    text-decoration: none;
+    border-radius: 0.3rem;
+    padding: 0.5rem 1rem;
+}
+#diagnosticar{
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    background-color: #403f57;
+    color: white;
+    border-radius: 0.3rem;
+    padding: 0.5rem 1rem;
+    border: none;
+}
+#diagnosticar:hover{
+    cursor: pointer;
+}
+#problems-by-user{
+    width: 55%;
+    margin: auto;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem;
+}
+#problems-by-user > div{
+    background-color: white;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    color: #615f5f;
+    border-radius: 0.4rem;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+/*Estilos usuario.html. Fin*/
